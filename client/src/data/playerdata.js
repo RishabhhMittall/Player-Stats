@@ -3,7 +3,7 @@ const players = [
         image_url: "https://cdn.britannica.com/35/238335-050-2CB2EB8A/Lionel-Messi-Argentina-Netherlands-World-Cup-Qatar-2022.jpg",
         name: "Lionel Messi",
         position: "cf",
-        price: 1000000,
+        price: 950000,
         overall_score: 93,
         age: 37,
         height: 170,

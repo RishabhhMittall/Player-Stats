@@ -25,7 +25,7 @@ const PlayerCard = () => {
                 </div>
                 <div className='player-price'>
                     <span className='price-label'>Market Value</span><br></br>
-                    <span className='price-value'>${player.price}</span>
+                    <span className='price-value'>€{player.price}</span>
                 </div>
                 <button className='add-this-player-button'>Add this player</button>
             </div>

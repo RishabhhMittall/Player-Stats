@@ -40,7 +40,7 @@ const PlayerScoreDial = ({ player }) => {
                     textAlign: "center",
                 }}
             >
-                <div style={{ fontSize: "24px", fontWeight: "bold", color: "#333", paddingTop: "80px" }}>
+                <div style={{ fontSize: "24px", fontWeight: "bold", color: "#fff", paddingTop: "80px" }}>
                     {player?.overall_score}%
                 </div>
 
