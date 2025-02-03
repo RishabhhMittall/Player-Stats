@@ -21,13 +21,15 @@ const PlayerStatsDoughnutChart = ({ player }) => {
             {
                 data: [player.potential, 100 - player.potential],
                 backgroundColor: [
-                    'rgba(54, 162, 235, 0.6)',
-                    'rgba(200, 200, 200, 0.2)',
+                    'rgba(153, 102, 255, 0.8)',  // Brighter Purple
+                    'rgba(200, 200, 200, 0.4)',  // Lighter Gray (kept the same)
                 ],
                 borderColor: [
-                    'rgba(54, 162, 235, 1)',
-                    'rgba(200, 200, 200, 0.2)',
-                ],
+                    'rgba(153, 102, 255, 1)',    // Brighter Purple
+                    'rgba(200, 200, 200, 0.4)',  // Lighter Gray (kept the same)
+                ]
+                ,
+                
                 borderWidth: 1,
             },
         ],

@@ -9,7 +9,7 @@ const PlayerScoreDial = ({ player }) => {
         labels: ["Score"],
         datasets: [
             {
-                data: [player?.potential || 0, 100 - (player?.potential || 0)],
+                data: [player?.overall_score || 0, 100 - (player?.overall_score  || 0)],
                 backgroundColor: ["#3DB54B", "#DD360F"],
                 borderWidth: 1,
                 circumference: 180, // Half-doughnut
@@ -41,7 +41,7 @@ const PlayerScoreDial = ({ player }) => {
                 }}
             >
                 <div style={{ fontSize: "24px", fontWeight: "bold", color: "#333", paddingTop: "80px" }}>
-                    {player?.potential}%
+                    {player?.overall_score}%
                 </div>
 
             </div>
